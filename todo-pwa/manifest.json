@@ -1,6 +1,6 @@
 {
-    name: "Todo PWA",
-    short_name: "Todo",
+    "name": "Todo PWA",
+    "short_name": "Todo",
     "icons": [
         {
             "src": "/android-chrome-192x192.png",
@@ -13,10 +13,10 @@
             "type": "image/png"
         }
     ],
-    theme_color: "#FFFFFF",
-    background_color: "#FFFFFF",
-    start_url: "/pwa-examples/ToDo-PWA/",
-    display: "standalone",
-    orientation: "portrait",
+    "theme_color": "#FFFFFF",
+    "background_color": "#FFFFFF",
+    "start_url": "/pwa-examples/ToDo-PWA/",
+    "display": "standalone",
+    "orientation": "portrait",
   };
   
