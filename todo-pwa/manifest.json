@@ -1,6 +1,7 @@
 {
     "name": "Todo PWA",
     "short_name": "Todo",
+    "description": "Progressive Web Application for a simple ToDo app as an example."
     "icons": [
         {
             "src": "/android-chrome-192x192.png",
@@ -15,8 +16,8 @@
     ],
     "theme_color": "#FFFFFF",
     "background_color": "#FFFFFF",
-    "start_url": "/pwa-examples/todo-pwa/",
-    "display": "standalone",
+    "start_url": "/pwa-examples/todo-pwa/index.html",
+    "display": "fullscreen",
     "orientation": "portrait",
   };
   
