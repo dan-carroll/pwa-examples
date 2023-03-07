@@ -19,5 +19,4 @@
     "start_url": "/pwa-examples/todo-pwa/index.html",
     "display": "fullscreen",
     "orientation": "portrait",
-  };
-  
+}
