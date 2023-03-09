@@ -61,7 +61,7 @@ const getTodos = async () => {
 //delete todo
 const deleteTodo = async (event, id) => {
   await db.todos.delete(id);
-  log ("Todo was deleted.");
+  //log ("Todo was deleted.");
   await getTodos();
 };
 
