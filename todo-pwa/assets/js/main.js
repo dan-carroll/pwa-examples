@@ -40,7 +40,7 @@ form.onsubmit = async (event) => {
 //display todo
 const getTodos = async () => {
   const allTodos = await db.todos.reverse().toArray();
-  console.log ("Got all todos: " + allTodos);
+  console.log ("Got all todos: " + JSON.stringify(allTodos));
   list_el.innerHTML = allTodos
     .map(
       (todo) => `
