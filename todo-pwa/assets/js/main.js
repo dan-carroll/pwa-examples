@@ -32,7 +32,7 @@ form.onsubmit = async (event) => {
   event.preventDefault();
   const todo = input.value;
   await db.todos.add({ todo });
-  log ("Added todo: " + todo);
+  //log ("Added todo: " + todo);
   await getTodos();
   form.reset();
 };
@@ -40,7 +40,7 @@ form.onsubmit = async (event) => {
 //display todo
 const getTodos = async () => {
   const allTodos = await db.todos.reverse().toArray();
-  log ("Got all todos: " + allTodos);
+  //log ("Got all todos: " + allTodos);
   list_el.innerHTML = allTodos
     .map(
       (todo) => `
