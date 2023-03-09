@@ -47,7 +47,7 @@ const getTodos = async () => {
     
     <div class="task">
     <div class="content">
-    <input id="edit" class="text" readonly="readonly" type="text" value= ${todo.todo}>
+    <input id="edit" class="text" readonly="readonly" type="text" value= ${JSON.stringify(todo.todo)}>
     </div>
     <div class="actions">
     <button class="delete" onclick="deleteTodo(event, ${todo.id})">Delete</button>
