@@ -55,7 +55,10 @@ const getTodos = async () => {
     </div>
     `
     )
-    .join("");
+    .join("")
+    .then(function(todo) {
+      console.log("Todo: " + JSON.stringify(todo.id) + ") " + JSON.stringify(todo.todo));
+    });
 };
 
 //delete todo
