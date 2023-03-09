@@ -6,36 +6,35 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>My Todo</title>
 	
-	<link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href=."/favicon-16x16.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
 	<meta name="msapplication-TileColor" content="#da532c">
 	<meta name="theme-color" content="#ffffff">
 	
-	<link rel="stylesheet" href="./assets/css/index.css" />
-	<link rel="manifest" href="./manifest.json" />
-	<script>
-		// Check that service workers are supported
-		if ('serviceWorker' in navigator) {
-			// Use the window load event to keep the page load performant
-			window.addEventListener('load', () => {
-				navigator.serviceWorker.register('./sw.js');
-			});
-		}
-	</script>
-	<script src="./dexie.min.js"></script>
+	<link rel="stylesheet" href="./assets/css/style.css" />
+	<link rel="manifest" href="./todo-pwa.manifest.json" />
+	<script src="./assets/js/dexie.min.js"></script>
 </head>
 
 <body>
 
 	<header>
-		<h1>Todo PWA</h1>
+		<div id="grid">
+			<div id="item1"><span style="display:none;float:left;">Invisible Text</span></div>
+			<div id="item2"><h1>Todo PWA</h1></div>
+			<div id="item3">
+				<span id="installInstructions">
+				<button type="button" id="install-btn" onclick="installNow()"><strong>Install this App</strong></button>
+				</span>
+			</div>
+		</div>
+		
 		<form id="new-task-form">
 			<input type="text" name="new-task-input" id="new-task-input" placeholder="What do you have planned?" />
 
 			<input type="submit" id="new-task-submit" value="Add task" />
 		</form>
-
 	</header>
 	<main>
 		<section class="task-list">
@@ -46,7 +45,7 @@
 		</section>
 	</main>
 
-	<script src="./assets/js/index.js"></script>
+	<script src="./assets/js/main.js"></script>
 </body>
 
 </html>

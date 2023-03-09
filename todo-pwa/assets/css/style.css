@@ -157,3 +157,48 @@ main {
 .task .actions .delete {
 	color: crimson;
 }
+
+#install-btn {
+	background-color: #008CBA;
+	border: none;
+	color: white;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 16px;
+	float: right;
+	border-radius: 12px;
+	transition-duration: 0.4s;
+}
+
+#install-btn:hover {
+	background-color: #4CAF50; /* Green */
+	color: white;
+  }
+
+#installInstructions {
+	display: none
+ }
+ @media (display-mode: browser) {
+	#installInstructions {
+	  display: block
+	}
+ }
+
+ #grid {
+	display: grid;
+	grid-template-columns: 30% 40% 30%;
+  }
+  
+  #item1 {
+	
+  }
+  
+  #item2 {
+	
+  }
+  
+  #item3 {
+	
+  }
+  

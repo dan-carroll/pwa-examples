@@ -1,17 +1,38 @@
+// Check that service workers are supported
+if ('serviceWorker' in navigator) {
+  // Use the window load event to keep the page load performant
+  window.addEventListener('load', () => {
+      navigator.serviceWorker.register('./sw.js').then(function(registration) {
+          // Registration was successful
+          console.log('ServiceWorker registration successful with scope: ', registration.scope);
+      }, function(err) {
+          // registration failed :(
+          console.log('ServiceWorker registration failed: ', err);
+      });
+    });
+}
+
 //creating database structure
 
-const db = new Dexie("Todo App");
+// declare database and the todos table
+
+const db = new Dexie("TodoDB");
 db.version(1).stores({ todos: "++id, todo" });
+//log ("Using Dexie v" + Dexie.semVer);
 
 const form = document.querySelector("#new-task-form");
 const input = document.querySelector("#new-task-input");
 const list_el = document.querySelector("#tasks");
+
+
+// Add, Display, and Delete todo data
 
 //add todo
 form.onsubmit = async (event) => {
   event.preventDefault();
   const todo = input.value;
   await db.todos.add({ todo });
+  log ("Added todo: " + todo);
   await getTodos();
   form.reset();
 };
@@ -19,6 +40,7 @@ form.onsubmit = async (event) => {
 //display todo
 const getTodos = async () => {
   const allTodos = await db.todos.reverse().toArray();
+  log ("Got all todos: " + allTodos);
   list_el.innerHTML = allTodos
     .map(
       (todo) => `
@@ -35,10 +57,14 @@ const getTodos = async () => {
     )
     .join("");
 };
-window.onload = getTodos;
 
 //delete todo
 const deleteTodo = async (event, id) => {
   await db.todos.delete(id);
+  log ("Todo was deleted.");
   await getTodos();
 };
+
+
+// Display todos on app start (load)
+window.onload = getTodos;
