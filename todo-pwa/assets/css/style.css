@@ -169,6 +169,7 @@ main {
 	float: right;
 	border-radius: 12px;
 	transition-duration: 0.4s;
+	display: none;
 }
 
 #install-btn:hover {
@@ -176,12 +177,9 @@ main {
 	color: white;
   }
 
-#installInstructions {
-	display: none
- }
  @media (display-mode: browser) {
-	#installInstructions {
-	  display: block
+	#install-btn {
+	  display: block;
 	}
  }
 
