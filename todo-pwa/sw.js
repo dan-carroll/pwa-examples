@@ -1,7 +1,9 @@
 importScripts("./assets/js/dexie.min.js");
 
 
-const staticTodoApp = "todo-pwa-v1";
+const staticTodoApp = "todo-pwa-v1"; // cache name
+//const staticTodoApp = "todo-pwa-v2"; // Replace first cache when upgrading
+
 const assets = [
   ".",
   "/",
@@ -24,20 +26,30 @@ self.addEventListener("install", installEvent => {
 
 self.addEventListener("activate", event => {
   console.log("Service worker activated");
+  event.waitUntil(
+    caches.keys().then(cacheNames => {
+      return Promise.all(
+        cacheNames.map(cacheName => {
+          if (cacheName !== staticTodoApp){
+            return caches.delete(cacheName);
+          };
+        })
+      );
+    })
+  );
 });
 
 self.addEventListener("fetch", event => {
     console.log(`URL requested: ${event.request.url}`);
     
-    fetch(event.request); // Ignore cache and fetch request
+  //  fetch(event.request); // Ignore cache and fetch request
 
-    //event.respondWith(
-    //  caches.match(event.request)
-    //  .then(cachedResponse => {
-    //    // Update the cache to serve updated content on the next request
-    //      return cachedResponse || fetch(event.request);
-    //  }
-    //)
-   //)
-
- });
+    event.respondWith(
+      caches.match(event.request)
+      .then(cachedResponse => {
+        // Update the cache to serve updated content on the next request
+          return cachedResponse || fetch(event.request);
+      }
+    )
+  )
+});
