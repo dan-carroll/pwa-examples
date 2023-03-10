@@ -185,7 +185,7 @@ main {
 
  #grid {
 	display: grid;
-	grid-template-columns: 30% 40% 30%;
+	grid-template-columns: 1fr 2fr 1fr;
   }
   
   #item1 {
