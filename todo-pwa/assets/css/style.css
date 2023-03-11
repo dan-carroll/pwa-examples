@@ -158,7 +158,7 @@ main {
 	color: crimson;
 }
 
-#install-btn {
+#buttonInstall {
 	background-color: #008CBA;
 	border: none;
 	color: white;
@@ -172,13 +172,13 @@ main {
 	display: none;
 }
 
-#install-btn:hover {
+#buttonInstall:hover {
 	background-color: #4CAF50; /* Green */
 	color: white;
   }
 
  @media (display-mode: browser) {
-	#install-btn {
+	#buttonInstall {
 	  display: block;
 	}
  }
