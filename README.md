@@ -5,7 +5,7 @@ See the [pwa-examples](https://github.com/mdn/pwa-examples) from [MDN Web Docs](
 
 
 ## My Examples:
- * [Hello-PWA](hello-pwa): A simple Hello World app for my first PWA.
+ * [Hello-PWA](hello-pwa): A simple Hello World app for my first PWA. Follow along with James Johnson on his tutorial, [A Simple Progressive Web App Tutorial](https://medium.com/james-johnson/a-simple-progressive-web-app-tutorial-f9708e5f2605), to create your own [PWA](https://github.com/jamesjohnson280/hello-pwa).
  
  * [ToDo-PWA](todo-pwa): A PWA based on the tutorial [Building a Mobile App using HTML, CSS, and JavaScript](https://blog.openreplay.com/building-a-mobile-app-using-html-css-and-javascript). It is close to the original but I made a few changes to fit my way of doing things. The original code is available at [github.com/wisdomekpotu/PWA-TodoApp](https://github.com/wisdomekpotu/PWA-TodoApp).
 
