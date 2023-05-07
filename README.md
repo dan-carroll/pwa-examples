@@ -13,13 +13,13 @@ See the [pwa-examples](https://github.com/mdn/pwa-examples) from [MDN Web Docs](
 
 ## Planned Projects
 
-[PWA Scaffold]: Feel the need for a bit of scaffolding to build future PWAs.
+- **PWA Scaffold**: Feel the need for a bit of scaffolding to build future PWAs.
 
-[Shopping List]: Should be a quick and easy project. Thinking about using the ToDo-PWA as a blueprint.
+- **Shopping List**: Should be a quick and easy project. Thinking about using the ToDo-PWA as a blueprint.
 
-[Prayer-PWA]: I can use help in my prayer life. Why not build an app to help? And I could share it.
+- **Prayer-PWA**: I can use help in my prayer life. Why not build an app to help? And I could share it.
 
-[Sales-PWA]: Personal sales app for tracking customers, sales, and expenses. Could come in handy come tax time. Inspired by my spouse's Color Street sales business.
+- **Sales-PWA**: Personal sales app for tracking customers, sales, and expenses. Could come in handy come tax time. Inspired by my spouse's Color Street sales business.
 
 ## Build Your Own
 
