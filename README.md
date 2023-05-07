@@ -37,7 +37,7 @@ See the [pwa-examples](https://github.com/mdn/pwa-examples) from [MDN Web Docs](
 
 [Learn PWA at Web.dev](https://web.dev/learn/pwa/): This course covers the fundamentals of Progressive Web App development in easy-to-understand pieces. The Google Developer Training PWA Training Lab link redirected to this site.
 
-[Get started with Progressive Web Apps](https://learn.microsoft.com/en-us/microsoft-edge/progressive-web-apps-chromium/how-to/): Learn to build PWAs from Microsoft Learn.
+[Get started with Progressive Web Apps](https://learn.microsoft.com/en-us/microsoft-edge/progressive-web-apps-chromium/how-to/): Learn to build PWAs from [Microsoft Learn](https://learn.microsoft.com/en-us/).
 
 [30 Days of PWA](https://microsoft.github.io/win-student-devs/#/30DaysOfPWA/): Students and developers new to PWAs can learn to build their own Windows apps.
 
