@@ -42,3 +42,6 @@ See the [pwa-examples](https://github.com/mdn/pwa-examples) from [MDN Web Docs](
 
 [**30 Days of PWA**](https://microsoft.github.io/win-student-devs/#/30DaysOfPWA/): Students and developers new to PWAs can learn to build their own Windows apps.
 
+### PWA Tutorials
+
+- [How to build a PWA from scratch with HTML, CSS, and JavaScript](https://www.freecodecamp.org/news/build-a-pwa-from-scratch-with-html-css-and-javascript/) by [Ibrahima Ndaw](https://www.freecodecamp.org/news/author/ibrahima92/)
