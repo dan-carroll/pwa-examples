@@ -12,6 +12,8 @@ See the [pwa-examples](https://github.com/mdn/pwa-examples) from [MDN Web Docs](
 
 - [**Lonely Globe**](lonely-globe): Another PWA based on the tutorial [Getting Started with Offline First using UpUp](https://www.talater.com/upup/getting-started-with-offline-first.html). See the [TalAter/UpUp](https://github.com/TalAter/UpUp/tree/master/demo/getting-started-with-offline-first-demo) GitHub repo. Just go down into demo folder for the tutorial code under "getting-started-with-offline-first-demo". The tutorial isn't complete. Had to look at the code on GitHub. And the .min.js.map files weren't complete so changed to using the non-minimized js files from the src folder in the root of the repo.
 
+- [**Your First Progressive Web App Codelab**](https://github.com/googlecodelabs/your-first-pwapp): Google CodeLabs files for building your first PWA. I originally forked this but have since removed my fork. This codelab may still be accessible and I have the working code here.
+
 ### Planned Projects
 
 - **PWA Scaffold**: Feel the need for a bit of scaffolding to build future PWAs.
