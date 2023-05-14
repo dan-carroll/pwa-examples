@@ -14,7 +14,9 @@ See the [pwa-examples](https://github.com/mdn/pwa-examples) from [MDN Web Docs](
 
 ### Planned Projects
 
-- **PWA Scaffold**: Feel the need for a bit of scaffolding to build future PWAs.
+- **PWA Scaffold**: Feel the need for a bit of scaffolding to build future PWAs. May not need to do this. See the links below.
+  - [**PWA Starter**](https://github.com/pwa-builder/pwa-starter): Trying out this template. Made a [fork](https://github.com/dan-carroll/pwa-starter) of it so I would have a copy. Following these [directions](https://docs.pwabuilder.com/#/starter/quick-start) to give this thing a trial go of it.
+  - [**Simple PWA**](https://github.com/nikkifurls/simplepwa): Simple Progressive Web App (PWA) template. Will (also) be trying this one out in the future. I have also made a [clone](https://github.com/dan-carroll/simplepwa) of this repo to have a copy of it. The documentation for this template is in the README file and on the [website](https://simplepwa.com/), which is also linked to in the repository.
 
 - **Shopping List**: Should be a quick and easy project. Thinking about using the ToDo-PWA as a blueprint.
 
