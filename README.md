@@ -47,3 +47,8 @@ See the [pwa-examples](https://github.com/mdn/pwa-examples) from [MDN Web Docs](
 ### PWA Tutorials
 
 - [How to build a PWA from scratch with HTML, CSS, and JavaScript](https://www.freecodecamp.org/news/build-a-pwa-from-scratch-with-html-css-and-javascript/) by [Ibrahima Ndaw](https://www.freecodecamp.org/news/author/ibrahima92/)
+
+### More PWA Examples
+
+- [Appscope](https://appsco.pe/): A directory of Progressive Web Apps, showcasing the best PWA examples. All apps listed run entirely in the web browser and launch instantly without an app download. If you wish, they can be saved to your home screen just like any other app.
+
